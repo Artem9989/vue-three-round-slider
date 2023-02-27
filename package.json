@@ -1,5 +1,5 @@
 {
-  "name": "vue-three-round-slider",
+  "name": "@artem9989/vue-three-round-slider",
   "version": "1.0.1",
   "description": "Circular slider for vue 3",
   "keywords": [
@@ -19,7 +19,7 @@
   "author": "Artem9989",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Artem9989/vue-three-round-slider.git"
+    "url": "git+https://github.com/Artem9989/vue-three-round-slider.git"
   },
   "bugs": {
     "url": "https://github.com/Artem9989/vue-three-round-slider/issues"
@@ -63,5 +63,6 @@
     "uglify-es": "^3.3.9",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "homepage": "https://github.com/Artem9989/vue-three-round-slider#readme"
 }

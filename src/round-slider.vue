@@ -1,12 +1,14 @@
 <template>
-  <div />
+  <div>
+    <div></div>
+  </div>
 </template>
 
 <script>
 import $ from "jquery";
 import "round-slider";
-import objectAssign from 'object.assign';
-
+import objectAssign from "object.assign";
+import "./roundSliderStyle.css";
 export default {
   name: "RoundSlider",
   props: {
@@ -264,30 +266,3 @@ const validateProp = (prop, value) => {
   return true;
 };
 </script>
-
-<style src='./roundslider.min.css'></style>
-
-<style>
-/* some UI customization of roundSlider for Vue */
-/* #: later this can be applied for base component also */
-
-.rs-handle {
-  background-color: #f3f3f3;
-  box-shadow: 0px 0px 4px 0px #000;
-}
-
-.rs-tooltip-text {
-  font-size: 26px;
-  font-weight: 500;
-  font-family: Avenir, Tahoma, Verdana, sans-serif;
-}
-
-.rs-animation .rs-transition {
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.rs-tooltip.rs-hover,
-.rs-tooltip.rs-edit:hover {
-  border: 1px solid #cacaca;
-}
-</style>

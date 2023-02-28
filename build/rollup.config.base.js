@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import replace from 'rollup-plugin-replace'
 import commonjs from 'rollup-plugin-commonjs'
 import { eslint } from 'rollup-plugin-eslint'
-
+import postcss from 'rollup-plugin-postcss'
 import pkg from '../package.json'
 import bannerContent from './banner'
 
@@ -21,11 +21,14 @@ export default {
   },
   external: ['vue', 'jquery'],
   plugins: [
+    postcss(),
     resolve(),
-    commonjs(),
     eslint(),
     vue({
-      css: true,
+      target: 'browser',
+      css: false,
+      exposeFilename: false,
+      preprocessStyles: true,
       template: {
         isProduction: true
       }
@@ -35,6 +38,7 @@ export default {
     }),
     replace({
       VERSION: JSON.stringify(pkg.version),
-    })
+    }),
+    commonjs(),
   ],
 }

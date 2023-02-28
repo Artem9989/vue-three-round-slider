@@ -1,5 +1,6 @@
-{   "name": "@artem9989/vue-three-round-slider",
-  "version": "1.1.0",
+{
+  "name": "@artem9989/vue-three-round-slider",
+  "version": "1.2.0",
   "description": "Circular slider for vue 3",
   "keywords": [
     "vuejs",
@@ -45,20 +46,22 @@
   },
   "dependencies": {
     "object.assign": "^4.1.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "round-slider": "^1.6.1"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.47",
     "babel-preset-env": "^1.7.0",
     "eslint-plugin-vue": "^5.2.2",
     "flush-promises": "^1.0.2",
     "rollup": "^1.15.1",
     "rollup-plugin-buble": "^0.19.6",
-    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-eslint": "^6.0.0",
     "rollup-plugin-node-resolve": "^5.0.1",
     "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-uglify": "^6.0.2",
-    "rollup-plugin-vue": "^5.0.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "rollup-plugin-vue": "^6.0.0",
     "stylus": "^0.54.5",
     "uglify-es": "^3.3.9",
     "vue": "^2.6.10",

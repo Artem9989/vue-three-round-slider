@@ -7,15 +7,13 @@ const install = function (Vue) {
 };
 
 // Expose the components
-export { RoundSlider };
+export default RoundSlider;
 
 /* -- Plugin definition & Auto-install -- /
 / You shouldn't have to modify the code below */
 
 // Plugin
 const plugin = { install };
-
-export default plugin;
 
 // Auto-install
 let GlobalVue = null;

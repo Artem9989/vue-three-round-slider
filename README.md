@@ -59,10 +59,10 @@
 ## Getting started
 
 ### Installation
-You can install the `vue-round-slider` package from [NPM](https://www.npmjs.com/package/vue-round-slider) through the below command.
+You can install the `vue-round-slider` package from [NPM](https://www.npmjs.com/package/@artem9989/vue-three-round-slider) through the below command.
 
 ```bash
-npm install vue-round-slider --save
+npm install @artem9989/vue-three-round-slider --save
 ```
 
 ### Usage

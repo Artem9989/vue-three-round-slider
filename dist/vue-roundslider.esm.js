@@ -1,8 +1,8 @@
 /*!
-* vue-round-slider v1.0.7
+* vue-round-slider v1.1.0
 *
 * @website https://github.com/Artem9989/vue-three-round-slider#readme
-* @copyright (c) 2023 Soundar
+* @copyright (c) 2023 Artem9989
 * @license MIT
 */
 

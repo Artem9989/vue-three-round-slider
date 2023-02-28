@@ -12,10 +12,6 @@
 </p>
 
 <p align="center">
-  <a href="https://vue.roundsliderui.com"> https://vue.roundsliderui.com </a> <br />
-</p>
-
-<p align="center">
   A highly customizable round slider for vue js with more flexibility
 </p>
 <p align="center">

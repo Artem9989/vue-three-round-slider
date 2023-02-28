@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import RoundSlider from 'vue-round-slider';
+import RoundSlider from '../../../../src/round-slider.vue';
 
 export default {
   name: 'HelloWorld',

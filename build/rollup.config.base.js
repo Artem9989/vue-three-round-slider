@@ -14,7 +14,8 @@ export default {
     exports: 'named',
     name: 'RoundSlider',
     globals: {
-      'jquery': '$'
+      'jquery': '$',
+      'global': 'global',
     },
     banner: bannerContent
   },

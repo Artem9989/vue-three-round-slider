@@ -1,6 +1,5 @@
-{
-  "name": "@artem9989/vue-three-round-slider",
-  "version": "1.0.1",
+{   "name": "@artem9989/vue-three-round-slider",
+  "version": "1.1.0",
   "description": "Circular slider for vue 3",
   "keywords": [
     "vuejs",
@@ -45,6 +44,7 @@
     "dev": "npm run build:unpkg --watch"
   },
   "dependencies": {
+    "object.assign": "^4.1.4",
     "round-slider": "^1.6.1"
   },
   "devDependencies": {

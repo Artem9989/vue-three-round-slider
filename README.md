@@ -17,10 +17,11 @@
 <p align="center">
   The vue-round-slider slider by soundar24 was taken as a basis
 </p>
-
-<a align="center" href="https://github.com/Artem9989/vue-three-round-slider">
-    <img src="/assets/vite-vue-three-round-sircle.gif" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
-</a>
+<p align="center">
+  <a href="https://github.com/Artem9989/vue-three-round-slider">
+      <img src="/assets/vite-vue-three-round-sircle.gif" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
+  </a>
+</p>
 <a href="https://github.com/Artem9989/vue-three-round-slider">
     <img src="/assets/showcase.png" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
 </a>

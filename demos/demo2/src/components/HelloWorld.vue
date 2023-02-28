@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
 
     <h2>
-      <a href="https://vue.roundsliderui.com/" target="_blank">
+      <a href="" target="_blank">
         Vue-Round-Slider [v{{version}}]
       </a>
     </h2>

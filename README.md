@@ -15,10 +15,13 @@
   A highly customizable round slider for vue js with more flexibility
 </p>
 <p align="center">
-  The @artem9989/vue-three-round-slider slider by soundar24 was taken as a basis
+  The vue-round-slider slider by soundar24 was taken as a basis
 </p>
 
-<a href="https://vue.roundsliderui.com">
+<a href="https://github.com/Artem9989/vue-three-round-slider">
+    <img src="/assets/vite-vue-three-round-sircle.gif" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
+</a>
+<a href="https://github.com/Artem9989/vue-three-round-slider">
     <img src="/assets/showcase.png" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
 </a>
 

@@ -15,11 +15,11 @@
   A highly customizable round slider for vue js with more flexibility
 </p>
 <p align="center">
-  The vue-round-slider slider by soundar24 was taken as a basis
+  The @artem9989/vue-three-round-slider slider by soundar24 was taken as a basis
 </p>
 
 <a href="https://vue.roundsliderui.com">
-    <img src="/assets/showcase.png" alt="vue-round-slider - circle slider, pie shape slider, range slider" />
+    <img src="/assets/showcase.png" alt="@artem9989/vue-three-round-slider - circle slider, pie shape slider, range slider" />
 </a>
 
 
@@ -55,7 +55,7 @@
 ## Getting started
 
 ### Installation
-You can install the `vue-round-slider` package from [NPM](https://www.npmjs.com/package/@artem9989/vue-three-round-slider) through the below command.
+You can install the `@artem9989/vue-three-round-slider` package from [NPM](https://www.npmjs.com/package/@artem9989/vue-three-round-slider) through the below command.
 
 ```bash
 npm install @artem9989/vue-three-round-slider --save
@@ -85,7 +85,7 @@ And then import and initialize the component:
 
 ```JavaScript
 import Vue from 'vue'
-import RoundSlider from 'vue-round-slider'
+import RoundSlider from '@artem9989/vue-three-round-slider'
 
 new Vue({
   el: '#app',
@@ -99,10 +99,40 @@ new Vue({
   },
 })
 ```
+Local use of the component Vue 3:
+```JavaScript
+<template>
+    <div>
+      <round-slider
+        v-model="childValue"
+        start-angle="315"
+        end-angle="+270"
+        line-cap="round"
+        radius="120"
+        step="5"
+        max="1435"
+      />
+    </div>
+</template>
 
+<script>
+import RoundSlider from '@artem9989/vue-three-round-slider'
+export default {
+  components: {
+    RoundSlider
+  },
+  data() {
+    return {
+      childValue: 23,
+    };
+  },
+};
+</script>
+
+```
 ## Quick Start
 
-The easiest way to try and start using **vue-round-slider** is using **JSFiddle** or **CodeSandbox**. For round-slider projects,
+The easiest way to try and start using **@artem9989/vue-three-round-slider** is using **JSFiddle** or **CodeSandbox**. For round-slider projects,
 * based on vue-cli 3 you can try the below CodeSandbox
     * <a href="https://codesandbox.io/s/demo-vue-three-round-slider-yl2ssp"> CodeSandbox Demo </a>
 
@@ -165,9 +195,9 @@ For better understanding the props was arranged based on some categories such as
 # Screenshots
 
 ### Different appearances
-![vue-round-slider - colourful appearances](/assets/different-appearances.png)
+![@artem9989/vue-three-round-slider - colourful appearances](/assets/different-appearances.png)
 ### Different circle shapes
-![vue-round-slider - different circle shapes - pie shape, half or semi-circle, quarter and arc slider](/assets/different-circle-shape-sliders.png)
+![@artem9989/vue-three-round-slider - different circle shapes - pie shape, half or semi-circle, quarter and arc slider](/assets/different-circle-shape-sliders.png)
 
 # License
 

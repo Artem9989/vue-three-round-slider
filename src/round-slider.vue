@@ -212,7 +212,7 @@ export default {
     // so, watch all the props for the changes to reflect in the component
     this.watchProps();
   },
-  destroyed() {
+  unmounted() {
     this.control.roundSlider("destroy");
   },
   emits: ["update:modelValue"],

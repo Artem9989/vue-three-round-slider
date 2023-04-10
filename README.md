@@ -154,7 +154,7 @@ For better understanding the props was arranged based on some categories such as
 | min               | Number         | 0            | The min property indicates the minimum value of the slider\.                                                                             |
 | max               | Number         | 100          | The max property indicates the maximum value of the slider\.                                                                             |
 | step              | Number         | 1            | Decides the number of steps or value should take while we move the handle\.                                                              |
-| value             | String, Number | null         | Sets or gets the value of the slider\. Instead, by using \`v\-modal` you can enable the two\-way data binding\.                          |
+| model-value       | String, Number | null         | Sets or gets the value of the slider\. Instead, by using \`v\-modal` you can enable the two\-way data binding\.                          |
 | radius            | Number         | 105          | The radius property indicates the radius of the slider's circle\.                                                                        |
 | width             | Number         | 20           | Indicates the width \(or thickness\) of the slider\.                                                                                     |
 | lineCap           | String         | "butt"       | The lineCap property mentions the shape at the edge of the path and range bars\.                                                         |
@@ -192,7 +192,7 @@ For better understanding the props was arranged based on some categories such as
 | create            | This event triggered after the control creation or initialization\.                                                                                         |
 | beforeValueChange | This event will be triggered before the value change happens\. And this event can be cancellable\.                                                          |
 | change            | This event triggered when the slider's value gets changed\.                                                                                                 |
-| update            | This event triggered when the slider value updated such as during change as well as the handle drag\. Simply it is the combination of "change" and "drag"\. |
+| update:modelValue | This event triggered when the slider value updated such as during change as well as the handle drag\. Simply it is the combination of "change" and "drag"\. |
 | valueChange       | This event is similar to 'update' event, in addition it will trigger even the value was changed through programmatically also\.                             |
 | tooltipFormat     | This event will act as a callback\. So you can customize the tooltip template by returning with the custom values here\.                                    |
 

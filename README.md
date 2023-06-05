@@ -59,10 +59,10 @@
 ## Getting started
 
 ### Installation
-You can install the `@artem9989/vue-three-round-slider` package from [NPM](https://www.npmjs.com/package/@artem9989/vue-three-round-slider) through the below command.
+You can install the `vue-three-round-slider` package from [NPM](https://www.npmjs.com/package/vue-three-round-slider) through the below command.
 
 ```bash
-npm install @artem9989/vue-three-round-slider --save
+npm i vue-three-round-slider --save
 ```
 
 ### Usage
@@ -89,7 +89,7 @@ And then import and initialize the component:
 
 ```JavaScript
 import Vue from 'vue'
-import RoundSlider from '@artem9989/vue-three-round-slider'
+import RoundSlider from 'vue-three-round-slider'
 
 new Vue({
   el: '#app',
@@ -120,7 +120,7 @@ Local use of the component Vue 3:
 </template>
 
 <script>
-import RoundSlider from '@artem9989/vue-three-round-slider'
+import RoundSlider from 'vue-three-round-slider'
 export default {
   components: {
     RoundSlider
@@ -136,7 +136,7 @@ export default {
 ```
 ## Quick Start
 
-The easiest way to try and start using **@artem9989/vue-three-round-slider** is using **JSFiddle** or **CodeSandbox**. For round-slider projects,
+The easiest way to try and start using **vue-three-round-slider** is using **JSFiddle** or **CodeSandbox**. For round-slider projects,
 * based on vue-cli 3 you can try the below CodeSandbox
     * <a href="https://codesandbox.io/s/demo-vue-three-round-slider-yl2ssp"> CodeSandbox Demo </a>
 
